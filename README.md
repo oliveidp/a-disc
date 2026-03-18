@@ -1,7 +1,7 @@
 ## A-DISC README
 
 ## Date last README update
-2024-08-09
+2026-03-18
 
 ## Title
 A-DISC pipeline’s template - regarding the manuscript “Automating COVID-19 epidemiological situation reports based on multiple data sources, the Netherlands, 2020 to 2023.”
@@ -20,6 +20,9 @@ Priscila de Oliveira Bressane Lima1, Jan van de Kassteele1, Maarten Schipper1, N
 This template code can be used for the Automation of Data Import, Summarization and Communication, hereafter called the A-DISC pipeline. It can be customized to automate other disease surveillance processes and may be useful for other countries and settings to apply.
 
 The A-DISC pipeline is developed in the R studio software environment. It consists of a modular scripts pipeline to automatically process and summarize data from multiple sources and to integrate these data summaries into an epi-sitrep document using Rmarkdown. The A-DISC pipeline is organized into four major modules: Prepare, Process data, Produce report, and Communicate. The master-script.R (in folder scripts) source all modules’ scripts.
+
+<img width="753" height="666" alt="image" src="https://github.com/user-attachments/assets/06363aaf-b1bf-4851-ad93-b12a873956a3" />
+
 The A-DISC pipeline proved its effectiveness by processing several data sources for COVID-19 surveillance. For simplicity, this template illustrates a pipeline with two data sources. In the template code they are named notifications and tests and are retrieved from the RIVM data catalog, via https://data.rivm.nl/covid-19/, as ‘COVID-19_casus_landelijk.csv’ and ‘COVID-19_uitgevoerde_testen.csv’, respectively. 
 
 ## How to use
